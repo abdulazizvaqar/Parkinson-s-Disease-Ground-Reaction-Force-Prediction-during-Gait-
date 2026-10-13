@@ -1,2 +1,0 @@
-# Ankle Kinematics Driven Prediction of Ground Reaction Forces During Gait Assessment in Parkinson’s Disease Patients: A Deep Learning Approach
-This repo includes a deep learning-based framework for predicting three-dimensional GRF components antero-posterior (AP), vertical (vGRF), and medio-lateral (ML) using only ankle position data over a complete gait cycle, substantially reducing instrumentation requirements. 
