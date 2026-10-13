@@ -1,0 +1,44 @@
+[
+  {
+    "task": "AP_Left",
+    "participants": 20,
+    "cycles": 283,
+    "fingerprint": "e24a206f24eb8ea196183a7966b510f001d0bdea68c27b8ca94a7fea791065fa",
+    "units_verified": false
+  },
+  {
+    "task": "AP_Right",
+    "participants": 19,
+    "cycles": 263,
+    "fingerprint": "d0e520a92c4fd0351c4ba0bf6fc64e3acc6b163770223c03a09b1d1542432187",
+    "units_verified": false
+  },
+  {
+    "task": "Vertical_Left",
+    "participants": 20,
+    "cycles": 283,
+    "fingerprint": "76160d41fa27656e5d90ddfcd13e9d46ff16bc949dedc6415f7958cb0b0e1b57",
+    "units_verified": false
+  },
+  {
+    "task": "Vertical_Right",
+    "participants": 19,
+    "cycles": 263,
+    "fingerprint": "cfeb1ee7cc6e82cf20ff2f3308c5d547d93fa752216a9d599af9904627babc75",
+    "units_verified": false
+  },
+  {
+    "task": "ML_Left",
+    "participants": 20,
+    "cycles": 283,
+    "fingerprint": "7320af2bb2b642174b010e5111057772931b413a88da6c8bc9988fd114eb25e3",
+    "units_verified": false
+  },
+  {
+    "task": "ML_Right",
+    "participants": 19,
+    "cycles": 263,
+    "fingerprint": "17d079bda9f0a6d6e35beb4d7a9b0610e2f06b63f6fac7865cafcafe6cb49845",
+    "units_verified": false
+  }
+]

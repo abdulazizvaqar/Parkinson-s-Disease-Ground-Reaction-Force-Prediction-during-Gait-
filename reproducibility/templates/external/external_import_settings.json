@@ -1,0 +1,36 @@
+{
+  "ankle_axis": {
+    "AP": "UNCONFIRMED",
+    "ML": "UNCONFIRMED",
+    "Vertical": "UNCONFIRMED"
+  },
+  "ankle_sign": {
+    "AP": null,
+    "ML": null,
+    "Vertical": null
+  },
+  "ankle_units": "UNCONFIRMED",
+  "column_pairing_verified": false,
+  "coordinate_definition": "UNCONFIRMED",
+  "cycle_definition": "UNCONFIRMED",
+  "force_platforms": "unknown",
+  "force_sampling_hz": "unknown",
+  "force_sign": {
+    "AP": null,
+    "ML": null,
+    "Vertical": null
+  },
+  "force_units": "UNCONFIRMED",
+  "harmonization_description": "UNCONFIRMED",
+  "identity_mapping_verified": false,
+  "internal_external_axes_and_signs_verified": false,
+  "kinematics_sampling_hz": "unknown",
+  "motion_capture_system": "unknown",
+  "participant_disjointness_verified": false,
+  "phase_grid_0_to_100_confirmed": false,
+  "resampling": "linear 101-to-100 normalized-phase interpolation; preserve both endpoints",
+  "source_population_scope": "Provided workbook columns only; source recruitment/exclusion history unavailable",
+  "visit_mapping_verified": false,
+  "walking_protocol": "unknown",
+  "workbook_sha256": "21707b071bb8d1232138ee234c1980294f439451bc31ed7615f5ac8a6dec4659"
+}

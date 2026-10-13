@@ -1,0 +1,3 @@
+task,family,participant,completed_seeds,expected_seeds,all_seeds_complete
+AP_Left,lstm,SUB01,5,5,True
+AP_Left,gru,SUB01,5,5,True

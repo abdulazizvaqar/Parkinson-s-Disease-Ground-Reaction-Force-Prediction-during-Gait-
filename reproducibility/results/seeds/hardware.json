@@ -1,0 +1,13 @@
+{
+  "tensorflow": {
+    "tensorflow": "2.20.0",
+    "devices": [
+      "/physical_device:CPU:0",
+      "/physical_device:GPU:0"
+    ]
+  },
+  "devices": [
+    "/physical_device:CPU:0",
+    "/physical_device:GPU:0"
+  ]
+}

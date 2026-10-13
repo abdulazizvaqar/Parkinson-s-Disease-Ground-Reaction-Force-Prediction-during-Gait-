@@ -1,0 +1,38 @@
+{
+  "Pearson": {
+    "family": "clinical_correlations",
+    "n_tests": 396,
+    "nominal_p_lt_0_05": 54,
+    "bh_q_lt_0_05": 11,
+    "by_q_lt_0_05": 1,
+    "smallest_p": 1.82037683642359e-05,
+    "smallest_q_bh": 0.007208692272237416,
+    "smallest_q_by": 0.04728824255813652
+  },
+  "Spearman": {
+    "family": "clinical_correlations",
+    "n_tests": 396,
+    "nominal_p_lt_0_05": 22,
+    "bh_q_lt_0_05": 0,
+    "by_q_lt_0_05": 0,
+    "smallest_p": 0.0011251679848802,
+    "smallest_q_bh": 0.4455665220125592,
+    "smallest_q_by": 1.0
+  },
+  "gait": {
+    "family": "gait_comparisons",
+    "n_tests": 19,
+    "nominal_p_lt_0_05": 11,
+    "bh_q_lt_0_05": 3,
+    "by_q_lt_0_05": 0,
+    "smallest_p": 0.0020298713035813,
+    "smallest_q_bh": 0.0178714983183785,
+    "smallest_q_by": 0.06340342331668804
+  },
+  "nominal_either_method_count": 62,
+  "spatiotemporal_clinical": {
+    "n_tests": 418,
+    "nominal": 121,
+    "bh": 75
+  }
+}

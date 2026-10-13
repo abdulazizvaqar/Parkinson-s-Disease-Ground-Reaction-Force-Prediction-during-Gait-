@@ -1,0 +1,19 @@
+sheet,samples,columns,missing_values,minimum,maximum,status
+L-VERT,101,23,0,-1311.715376420455,0.0,numeric waveform sheet
+R-VERT,101,23,0,-1280.48115678267,0.0,numeric waveform sheet
+L-AP,101,23,0,-156.4276885986328,157.2278215812914,numeric waveform sheet
+R-AP,101,23,0,-152.1303589175445,127.3924349389895,numeric waveform sheet
+L-ML,101,23,0,-138.2941212509619,86.18438512628737,numeric waveform sheet
+R-ML,101,23,0,-100.843601265339,109.6193840720437,numeric waveform sheet
+RANKX,101,23,0,166.8229655256175,527.3093539151279,numeric waveform sheet
+RANKY,101,23,0,-7.12781810760498,2133.842529296875,numeric waveform sheet
+RANKZ,101,23,0,47.76287841796875,261.0173931699811,numeric waveform sheet
+LANKX,101,23,0,25.87800575025154,338.6105346679688,numeric waveform sheet
+LANKY,101,23,0,-195.1480407714844,2245.397705078125,numeric waveform sheet
+LANKZ,101,23,0,57.03255185213957,244.8690421364524,numeric waveform sheet
+RHEELX,0,0,0,,,empty
+RHEELY,0,0,0,,,empty
+RHEELZ,0,0,0,,,empty
+LHEELX,0,0,0,,,empty
+LHEELY,0,0,0,,,empty
+LHEELZ,0,0,0,,,empty

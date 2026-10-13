@@ -1,0 +1,48 @@
+{
+  "files_sha256": {
+    "AnalysisGRF_AP_LEFT_SEQ2SEQ_1D CONVO_STAT_.xlsx": "c8cee32b0b06e45f9245023cffda201947265bd2262ee83680f293d143084be6",
+    "AnalysisGRF_AP_LEFT_SEQ2SEQ_GRU_STAT_.xlsx": "fe0df8f34f308e9b14f5613571091563f5261326238896efbc2aeab5d2483167",
+    "AnalysisGRF_AP_LEFT_SEQ2SEQ_LSTM_STAT_.xlsx": "a95082dac1faa8c2026ed4ecb3bad97591fa4c2efc8752354494184bc690a810",
+    "AnalysisGRF_AP_RIGHT_SEQ2SEQ_1D CONVO_STAT_.xlsx": "53df522e0f764f3c3f003328ac9896ff216e3bc8778813be465a2a846c6401b5",
+    "AnalysisGRF_AP_RIGHT_SEQ2SEQ_GRU_STAT_.xlsx": "438f30ef3ea897e7cb04077853b15177211e87522f2513222c409b8ae6701cfa",
+    "AnalysisGRF_AP_RIGHT_SEQ2SEQ_LSTM_STAT_.xlsx": "a3b4bd11dff1ce2ac8415eaa036e910fdd2ed4280918ea704dcbac8b06ec9e80",
+    "AnalysisGRF_LONG_LEFT_SEQ2SEQ_1D CONVO_STAT_.xlsx": "425cbcd061cde843b8a32c76d83e53d54042b0e89a4849e7efc0b432b3a6c036",
+    "AnalysisGRF_LONG_LEFT_SEQ2SEQ_GRU_STAT_.xlsx": "4f35179401e170a419f8b4f5c2573246e8e66614ff36755b2b011dd188374096",
+    "AnalysisGRF_LONG_LEFT_SEQ2SEQ_LSTM_STAT_.xlsx": "7e2c8f8a55861f670f9fd20327a0f38446879d6592cbde1efe79d7326c2a6c62",
+    "AnalysisGRF_LONG_RIGHT_SEQ2SEQ_1D CONVO_STAT_.xlsx": "ff88b6c136e6ac56347cd94029b79b3fcfc5f6d8421243569451f9ad7b5fa3cd",
+    "AnalysisGRF_LONG_RIGHT_SEQ2SEQ_GRU_STAT_.xlsx": "095b5789405fc602b1e68da30831874a346a194cf5c6786563ac529ace788c33",
+    "AnalysisGRF_LONG_RIGHT_SEQ2SEQ_LSTM_STAT_.xlsx": "59ebb20f0acd284750b43938eadb78beb6646013ed2c6f7133f150914d61475a",
+    "AnalysisGRF_ML_LEFT_SEQ2SEQ_1D CONVO_STAT_.xlsx": "54d29a55d3ed61fa578db54f2c336a5d36fcb3a0521708bded1d198171b337a5",
+    "AnalysisGRF_ML_LEFT_SEQ2SEQ_GRU_STAT_.xlsx": "0af8bf4645f30688d284a1e753eafdcd685aa53979d58acc62bce81cf8aa6904",
+    "AnalysisGRF_ML_LEFT_SEQ2SEQ_LSTM_STAT_.xlsx": "882d1547da991c76634190562161968f71b1946bbabb980834133f2bebf94691",
+    "AnalysisGRF_ML_RIGHT_SEQ2SEQ_1D CONVO_STAT_.xlsx": "6d5257b683bd69eae3c76fd7900e6f6ff2ea9bd6a7c767b174a45656fdc0d8d0",
+    "AnalysisGRF_ML_RIGHT_SEQ2SEQ_GRU_STAT_.xlsx": "0ab2b3c694e81eec8be3a14556d41c7c14e845a8868feca296dc9893d946d6a4",
+    "AnalysisGRF_ML_RIGHT_SEQ2SEQ_LSTM_STAT_.xlsx": "b8857df968f83f0a20ead34bbeb6d562c1b5ef62a480be0587e494224c5c7753"
+  },
+  "contact_and_peak_checks": [
+    {
+      "side": "LEFT",
+      "cycles": 283,
+      "participants": 20,
+      "measured_two_peak_cycles": 260,
+      "non_two_peak_cycles": 23,
+      "contact_points_min": 54,
+      "contact_points_max": 89,
+      "cycles_contact_mask_changes_2pct": 0,
+      "cycles_contact_mask_changes_5pct": 104
+    },
+    {
+      "side": "RIGHT",
+      "cycles": 263,
+      "participants": 19,
+      "measured_two_peak_cycles": 215,
+      "non_two_peak_cycles": 48,
+      "contact_points_min": 52,
+      "contact_points_max": 89,
+      "cycles_contact_mask_changes_2pct": 0,
+      "cycles_contact_mask_changes_5pct": 105
+    }
+  ],
+  "B": 10000,
+  "seed": 20261012
+}

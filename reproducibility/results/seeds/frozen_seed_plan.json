@@ -1,0 +1,116 @@
+{
+  "settings": {
+    "seeds": [
+      11,
+      22,
+      33,
+      44,
+      55
+    ],
+    "tasks": [
+      "AP_Left",
+      "AP_Right",
+      "Vertical_Left",
+      "Vertical_Right",
+      "ML_Left",
+      "ML_Right"
+    ],
+    "families": [
+      "lstm",
+      "gru",
+      "conv1d_lstm"
+    ],
+    "outer": "all",
+    "seed_rule": "SHA256 master/task/outer/family labels; independent initialization and epoch permutation",
+    "checkpoint_rule": "every complete epoch; optimizer iterations determine resume epoch",
+    "reporting_rule": "all requested seeds; balanced participant set; equal participant weighting",
+    "scope": "frozen-setting internal training sensitivity; no hyperparameter reselection"
+  },
+  "jobs": [
+    {
+      "task": "AP_Left",
+      "outer_subject": "SUB01",
+      "family": "lstm",
+      "parameters": {
+        "activation": "tanh",
+        "decoder_units": 128,
+        "encoder_units": 100,
+        "learning_rate": 0.001,
+        "loss": "mae",
+        "num_layers": 3,
+        "optimizer": "adam",
+        "units_0": 260,
+        "units_1": 388,
+        "units_2": 452
+      },
+      "epochs": 16,
+      "batch_size": 32,
+      "scale_input": false,
+      "search_profile": "original",
+      "source_selection_sha256": "67a7ec2bea6de377fe0a170563a0a4b21acbac89c251e6451df835b41db072ea",
+      "source_descriptor_sha256": "25844dd2a13019e638b73ee74bb0d28f38e9d9ef7ed110bc003c94f059b1c536",
+      "source_spec_sha256": "0774db9169f70aa53909a5b01799f419f195b28a35b11ae32c937750ba995bd5",
+      "source_software": {
+        "joblib": "1.6.0",
+        "keras": "3.13.2",
+        "keras-tuner": "1.4.7",
+        "numpy": "2.1.3",
+        "pandas": "2.2.3",
+        "python": "3.13.15",
+        "scikit-learn": "1.6.1",
+        "tensorflow": "2.20.0"
+      },
+      "data_fingerprint": "e24a206f24eb8ea196183a7966b510f001d0bdea68c27b8ca94a7fea791065fa"
+    },
+    {
+      "task": "AP_Left",
+      "outer_subject": "SUB01",
+      "family": "gru",
+      "parameters": {
+        "activation": "tanh",
+        "encoder_units": 32,
+        "learning_rate": 0.001,
+        "loss": "mse",
+        "num_layers": 1,
+        "optimizer": "adam",
+        "units_0": 32
+      },
+      "epochs": 6,
+      "batch_size": 32,
+      "scale_input": false,
+      "search_profile": "original",
+      "source_selection_sha256": "a9972019d455512046cd0132f87db76ec1081efa30d2f6a80ac21c87adaf1829",
+      "source_descriptor_sha256": "9a45a2b00a27b5661b7ae21d3df6c0bb767fa4e38b0c1561e6ad7f4df82a17a6",
+      "source_spec_sha256": "0774db9169f70aa53909a5b01799f419f195b28a35b11ae32c937750ba995bd5",
+      "source_software": {
+        "joblib": "1.6.0",
+        "keras": "3.13.2",
+        "keras-tuner": "1.4.7",
+        "numpy": "2.1.3",
+        "pandas": "2.2.3",
+        "python": "3.13.15",
+        "scikit-learn": "1.6.1",
+        "tensorflow": "2.20.0"
+      },
+      "data_fingerprint": "e24a206f24eb8ea196183a7966b510f001d0bdea68c27b8ca94a7fea791065fa"
+    }
+  ],
+  "software": {
+    "python": "3.13.15",
+    "tensorflow": "2.20.0",
+    "keras": "3.13.2",
+    "keras-tuner": "1.4.7",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "openpyxl": "3.1.5"
+  },
+  "code_sha256": {
+    "revision_models.py": "e505b318db62817ecdcb1e07f2fedb2e369f2765c60ddd6fa345c6dfc51cb9f8",
+    "evaluate_saved.py": "22ca23b139f5834e6db33bb24c80fb70f69c61b0c83ff135ae0e63453a998c62",
+    "revision_data.py": "f8873fb162c58822a6486c2f8094ec469178fca171b87406b6bbe28eb18c5d1c",
+    "models.py": "3f30671d985206c4fe1d5eaca53eef65f8b012ec01870e91db6e96a15627a258",
+    "seed_stability.py": "9669425f34bedb24b72c81f64e3bc9da0e94a98102e3d8a100768073e32f9a39",
+    "data.py": "c87ef77ed55f10d92abae2a8270aba57020fe8790c890249a3faf4f88df2465d",
+    "protocol.py": "a4cfc95095c89ec482a800244cfa74a001e793c3b61a09837a0d9626ee2e9a34"
+  }
+}

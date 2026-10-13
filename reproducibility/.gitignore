@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+work/
+raw_data/
+*.keras
+*.h5
+*.hdf5
+*.joblib
+*.npz
+*.rar
+*.xlsx
+*.zip

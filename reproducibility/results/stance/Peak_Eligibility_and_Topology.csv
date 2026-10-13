@@ -1,0 +1,7 @@
+Side,Model,N_cycles,N_measured_two_peak_cycles,N_predicted_two_peak_cycles_among_eligible
+LEFT,Conv1D-LSTM,283,260,169
+LEFT,GRU,283,260,95
+LEFT,LSTM,283,260,110
+RIGHT,Conv1D-LSTM,263,215,18
+RIGHT,GRU,263,215,39
+RIGHT,LSTM,263,215,69
